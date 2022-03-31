@@ -4,11 +4,14 @@ jQuery(document).ready(function() {
     alert("I told you, THIS IS A HEADING!");
   });
 
-  jQuery("p").click(function() {
-    alert("This is a paragraph.");
-  });
-
   jQuery("img").click(function() {
    alert("This is an image.");
+  });
+});
+
+$(document).ready(function() {
+  $("p").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
   });
 });
