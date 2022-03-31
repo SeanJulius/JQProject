@@ -15,3 +15,10 @@ $(document).ready(function() {
     $("#walrus-hidden").slideToggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").slideToggle();
+  });
+});

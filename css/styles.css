@@ -7,6 +7,11 @@
   color: #0088cc;
 }
 
+.clickable2 {
+  cursor: pointer;
+  color: white;
+}
+
 .clickable:hover {
   text-decoration: underline;
 }
